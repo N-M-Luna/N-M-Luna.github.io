@@ -1,0 +1,24 @@
+
+/* dark dray: 363636
+light gray: b3b3b3 
+violet: e5c0f7
+contrast yellow: f7eec0*/
+
+body {
+  background-color: #363636;
+}
+
+p {
+  color: #e5c0f7;
+} 
+
+
+h1 {
+  color: #f7eec0;
+} 
+
+h2 {
+	color: #b3b3b3
+}
+
+/* Div box shadow format for thumbnails */
