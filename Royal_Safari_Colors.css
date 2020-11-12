@@ -4,12 +4,24 @@ body {
 
 p, a, li, blockquote {
   color: #3d232a;
+  margin-left: 80px;
 } 
+
+p {
+  margin-left: 40px;
+}
 
 
 h1 {
-  color: #75ba95;
+  color: #ffe5d6;
+  margin-left: 5px;
 } 
 
 h2 {
-	
+	color: #75ba95;
+    margin-left: 20px;
+}
+
+.topnavi{
+background-color: #75ba95;
+}
