@@ -1,10 +1,10 @@
 /* Light Cream Color */
 body {
-  background-color: #ffefd6;
+  background-color: #fff5e0;
 }
 
 h1 {
-  color: #ffefd6;
+  color: #fff5e0;
   font-size: 30px;
   margin-left: 5px;
   display: inline;
@@ -14,10 +14,6 @@ h1 {
   margin-left: 20px;
 }
 
-#nav-button{
-  color: #ffefd6;
-  font-size: 25px;
-}
 
 /* Dark (almost-black) Brown Color */
 li {
@@ -42,17 +38,20 @@ blockquote {
   font-style: italic;
 } 	
 
-/* Teal Blue Color */
+
+/* Dark Teal Blue Color */
 h2 {
-  color: #75ba95;
+  color: #42966f;
   font-size: 25px;
 }
 
 footer {
-  color: #75ba95;
-  fot-size: 10px;
+  color: #42966f;
+  font-size: 15px;
 }
 
+/* Light Teal Blue Color */
 .topnavi {
   background-color: #75ba95;
+  font-size: 20px;
 }
