@@ -1,27 +1,58 @@
+/* Light Cream Color */
 body {
-  background-color: #ffe5d6;
+  background-color: #ffefd6;
 }
-
-p, a, li, blockquote {
-  color: #3d232a;
-  margin-left: 80px;
-} 
-
-p {
-  margin-left: 40px;
-}
-
 
 h1 {
-  color: #ffe5d6;
+  color: #ffefd6;
+  font-size: 30px;
   margin-left: 5px;
+  display: inline;
 } 
 
-h2 {
-	color: #75ba95;
-    margin-left: 20px;
+.main {
+  margin-left: 20px;
 }
 
-.topnavi{
-background-color: #75ba95;
+#nav-button{
+  color: #ffefd6;
+  font-size: 25px;
+}
+
+/* Dark (almost-black) Brown Color */
+li {
+  color: #3d232a;
+  margin-left: 60px;
+} 
+
+a {
+  color: #3d232a;
+  text-decoration: none;
+}
+
+p {
+  color: #3d232a;
+  margin-left: 20px;
+}
+
+blockquote {
+  color: #3d232a;
+  margin-left: 80px;
+  font-size: 16px;
+  font-style: italic;
+} 	
+
+/* Teal Blue Color */
+h2 {
+  color: #75ba95;
+  font-size: 25px;
+}
+
+footer {
+  color: #75ba95;
+  fot-size: 10px;
+}
+
+.topnavi {
+  background-color: #75ba95;
 }
