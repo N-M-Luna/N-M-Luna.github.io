@@ -21,6 +21,10 @@ li {
   margin-left: 60px;
 } 
 
+td{
+  color: #3d232a;
+}
+	
 a {
   color: #3d232a;
   text-decoration: none;
