@@ -55,3 +55,24 @@ footer {
   background-color: #75ba95;
   font-size: 20px;
 }
+
+/* table settings */
+table {
+  border-collapse: collapse;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+img {
+  border: 3px solid #75ba95;
+}
+
+.social-banner{
+	text-align: center;
+}
