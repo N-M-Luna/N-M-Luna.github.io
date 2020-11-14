@@ -14,29 +14,31 @@ h1 {
   margin-left: 20px;
 }
 
+/* Med Cream Color */
+/* Used for shadows: #e6cf9c */
 
-/* Dark (almost-black) Brown Color */
+/* Dark Cream Color */
 li {
-  color: #3d232a;
+  color: #302301;
   margin-left: 60px;
 } 
 
 td{
-  color: #3d232a;
+  color: #302301;
 }
 	
 a {
-  color: #3d232a;
+  color: #302301;
   text-decoration: none;
 }
 
 p {
-  color: #3d232a;
+  color: #302301;
   margin-left: 20px;
 }
 
 blockquote {
-  color: #3d232a;
+  color: #302301;
   margin-left: 80px;
   font-size: 16px;
   font-style: italic;
@@ -60,6 +62,10 @@ footer {
   font-size: 20px;
 }
 
+img {
+  border: 3px solid #75ba95;
+}
+
 /* table settings */
 table {
   border-collapse: collapse;
@@ -71,12 +77,4 @@ table {
 td, th {
   text-align: left;
   padding: 8px;
-}
-
-img {
-  border: 3px solid #75ba95;
-}
-
-.social-banner{
-	text-align: center;
 }
