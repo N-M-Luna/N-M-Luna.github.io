@@ -5,7 +5,7 @@ body {
 
 h1 {
   color: #fff5e0;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 5px;
   display: inline;
 } 
@@ -56,15 +56,37 @@ footer {
   font-size: 15px;
 }
 
-/* Light Teal Blue Color */
+.topnavi a:hover {
+  background-color: #42966f;
+  color: #302301;
+}
+
+
+/* Med Teal Blue Color */
 .topnavi {
-  background-color: #75ba95;
+  background-color: #84c2a9;
+  display: block;
+  overflow: hidden;
+}
+
+.topnavi a {
+  float: left;
+  display: block;
+  color: #302301;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #84c2a9;
   font-size: 20px;
+  display: block;
 }
 
 img {
-  border: 3px solid #75ba95;
+  border: 3px solid #84c2a9;
 }
+
+/* Light Teal Blue Color */
+/* Used for highlights #d3ebe1; */
 
 /* table settings */
 table {
@@ -77,4 +99,23 @@ table {
 td, th {
   text-align: left;
   padding: 8px;
+}
+
+/* landing page settings */
+.prompt{
+  background-color: #84c2a9;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classylady{
+  box-shadow: 5px 10px #e6cf9c;
+  border: none;
+}
+
+.eye-grabber{
+  color: #84c2a9;
+  font-size: 28px;
 }
