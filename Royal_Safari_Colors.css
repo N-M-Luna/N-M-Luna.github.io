@@ -1,3 +1,5 @@
+/* Responsive: When top navigation bar is less than 810px wide */
+
 /* Light Cream Color */
 body {
   background-color: #fff5e0;
@@ -11,7 +13,9 @@ h1 {
 } 
 
 .main {
-  margin-left: 20px;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Med Cream Color */
@@ -81,12 +85,10 @@ footer {
   display: block;
 }
 
+
 img {
   border: 3px solid #84c2a9;
 }
-
-/* Light Teal Blue Color */
-/* Used for highlights #d3ebe1; */
 
 /* table settings */
 table {
