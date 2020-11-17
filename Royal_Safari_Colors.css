@@ -1,3 +1,5 @@
+/* Color Scheme based on my Royal Safari Typewriter */
+
 /* Responsive: When top navigation bar is less than 810px wide */
 
 /* Light Cream Color */
@@ -10,6 +12,7 @@ h1 {
   font-size: 20px;
   margin-left: 5px;
   display: inline;
+  text-shadow: 2px 3px #42966f;
 } 
 
 .main {
@@ -20,6 +23,10 @@ h1 {
   -moz-box-shadow: 0 0 10px #e6cf9c;
   -webkit-box-shadow: 0 0 10px #e6cf9c;
   box-shadow: 0 0 10px #e6cf9c;
+}
+
+.main p{
+  padding-bottom: 10px;
 }
 
 /* Med Cream Color */
@@ -52,12 +59,27 @@ blockquote {
   font-style: italic;
 } 	
 
+.by-line {
+  color: #302301;
+  margin-left: 20px;
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 20px;
+}
 
 /* Dark Teal Blue Color */
 h2 {
   color: #42966f;
   font-size: 25px;
   margin-left: 10px;
+}
+
+.essay-title
+	{
+    color: #42966f;
+	font-size: 35px;
+    padding-top: 20px;
+    margin-left: 20px;
 }
 
 footer {
@@ -76,6 +98,10 @@ footer {
   background-color: #84c2a9;
   display: block;
   overflow: hidden;
+  -moz-box-shadow: 0 0 10px #302301;
+  -webkit-box-shadow: 0 0 10px #302301;
+  box-shadow: 0 0 10px #302301;
+  text-shadow: 1px 1px #42966f;
 }
 
 .topnavi a {
@@ -116,6 +142,7 @@ td, th {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .classylady{
