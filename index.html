@@ -7,11 +7,27 @@
   </head>
   <body>
     
-<div class="topnavi">
-<h1>Nathalie M. Luna </h1> | Published words 
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnavi") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnavi";
+  }
+}
+</script>
+    
+<div class="topnavi" id="myTopnav">
+<a href="#"><h1>Nathalie M. Luna </h1></a> <a href="#">Published words</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="color: #302301;"></i>
+  </a>
 </div>
 
-	<p class="eye-grabber">Hello! <p/>
+  <div class="main">
+
+	  <p class="eye-grabber">Hello! <p/>
 
 	<p>My name is Nathalie M. Luna and I love to write.<br/>
 
@@ -19,7 +35,7 @@
 	  
 <!-- List of Published works -->
 
-  <div class="main">
+
   <h2>Academic Papers</h2>
 
 <ul>
