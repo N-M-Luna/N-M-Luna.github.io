@@ -21,6 +21,8 @@ h1 {
   -moz-box-shadow: 0 0 10px #e6cf9c;
   -webkit-box-shadow: 0 0 10px #e6cf9c;
   box-shadow: 0 0 10px #e6cf9c;
+  padding-bottom: 10px;
+  padding-top: 10px;	
 }
 
 .main p{
@@ -73,13 +75,12 @@ h2 {
   margin-bottom: 0px;
 }
 
-.essay-title
-	{
+.essay-title {
     color: #42966f;
-	font-size: 35px;
+    font-size: 35px;
     padding-top: 10px;
     margin-left: 20px;
-    margin bottom: 20px;
+    margin-bottom: 20px;
     text-shadow: 1px 2px #e6cf9c;
 }
 
