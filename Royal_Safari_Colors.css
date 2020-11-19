@@ -30,6 +30,7 @@ h1 {
 .main p{
   padding-bottom: 10px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Med Cream Color */
@@ -53,6 +54,7 @@ a {
 p {
   color: #302301;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 blockquote {
@@ -77,6 +79,21 @@ h2 {
   margin-left: 10px;
   margin-bottom: 0px;
 }
+
+h4 {
+  color: #42966f;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  color: #42966f;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+	
 
 .essay-title {
     color: #42966f;
