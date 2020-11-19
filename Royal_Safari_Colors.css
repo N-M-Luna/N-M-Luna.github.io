@@ -75,9 +75,10 @@ blockquote {
 /* Dark Teal Blue Color */
 h2 {
   color: #42966f;
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 10px;
   margin-bottom: 0px;
+  text-shadow: 1px 3px #e6cf9c;
 }
 
 h4 {
@@ -85,6 +86,7 @@ h4 {
   font-size: 20px;
   margin-left: 10px;
   margin-bottom: 0px;
+  text-shadow: 1px 2px #e6cf9c;
 }
 
 h5 {
@@ -92,6 +94,7 @@ h5 {
   font-size: 18px;
   margin-left: 10px;
   margin-bottom: 0px;
+  text-shadow: 1px 1px #e6cf9c;
 }
 	
 
@@ -205,4 +208,37 @@ td, th {
 .eye-grabber{
   color: #84c2a9;
   font-size: 28px;
+}
+
+/* Unpublished works gallery */
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 200px;
+  height: 450px;
+  -moz-box-shadow: 0 0 10px #e6cf9c;
+  -webkit-box-shadow: 0 0 10px #e6cf9c;
+  box-shadow: 0 0 10px #e6cf9c;
+  background-color: #fff5e0;
+}
+
+div.gallery:hover {
+  -moz-box-shadow: 0 0 10px #84c2a9;
+  -webkit-box-shadow: 0 0 10px #84c2a9;
+  box-shadow: 0 0 10px #84c2a9;
+}
+
+div.gallery img {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border: none;
+}
+
+div.desc {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
 }
