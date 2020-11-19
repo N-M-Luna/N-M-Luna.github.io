@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://n-m-luna.github.io/Royal_Safari_Colors.css">
+    <title> One-to-One Languages </title>
+        
+  </head>
+  <body>
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnavi") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnavi";
+  }
+}
+</script>
+    
+<div class="topnavi" id="myTopnav">
+<a href="https://n-m-luna.github.io/"><h1>Nathalie M. Luna </h1></a> <a href="https://n-m-luna.github.io/published-words.html">Published words</a> <a href="https://n-m-luna.github.io/unpublished-words.html">Unpublished words</a> <a href="https://n-m-luna.github.io/illustrations.html">Illustrations</a> <a href="https://n-m-luna.github.io/contact-me.html">Contact me</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="color: #302301;"></i>
+  </a>
+</div>
+
+
+<p> Take me back to <a href="https://n-m-luna.github.io/unpublished-words.html"><u>unpublished words</u></a>. </p>
+
+
+<div class="main">
+
+
+<h2 class="essay-title"> One-to-One Languages </h2>
+<h3 class="by-line"> by Nathalie M. Luna | September 2020 </h3>
+
+<p> In English orthography, there is no one-to-one correspondence between sounds and symbols (letters)? Explain what this means. Why would this property be ideally desirable in a language from the standpoint of language learning? </p>
+
+<p>A one-to-one correspondence between the sounds and symbols means that (one), for every sound we use when we use the spoken English language, there exists just one corresponding symbol in English orthography. And (two), for every symbol (or combination of symbols) in the English orthography, there exists only one corresponding sound. </p>
+
+<p>English does not have this one-to-one correspondence because we have words (like two, too, and to) which have different symbols but the same sounds; and we also have words (like lead meaning the metal and lead meaning the verb “to lead”) which use the same symbols but different sounds depending on the meaning.</p>
+
+<p>A one-to-one correspondence between  sounds and symbols is highly desirable for languages, especially when learning it as a second language because it makes it less complicated to learn. When there is that type of relation between sounds and symbols, the student has only to memorize a finite set of symbols and their corresponding sound. When we don’t have this one-to-one correspondence, the poor student has to learn the finite set mentioned above and all the exceptions which, more often than not, are arbitrary. This makes learning the language more complicated to memorize.</p>
+
+</div>
+
+<footer> This portfolio was created by <a href="https://github.com/N-M-Luna" style="color: #42966f;" target="_blank"><u>N-M-Luna</u></a> using GitHub. Last updated: November 2020 </footer>
+
+</body>
+</html>
