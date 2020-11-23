@@ -213,7 +213,7 @@ td, th {
 /* Unpublished works gallery */
 
 div.gallery {
-  margin: 5px;
+  margin: 10px;
   float: left;
   width: 200px;
   height: 450px;
@@ -221,25 +221,26 @@ div.gallery {
   -webkit-box-shadow: 0 0 10px #e6cf9c;
   box-shadow: 0 0 10px #e6cf9c;
   background-color: #fffaed;
+  text-align: center;
+  padding-top: 20px;
 }
 
 div.gallery:hover {
-  -moz-box-shadow: 0 0 10px #84c2a9;
-  -webkit-box-shadow: 0 0 10px #84c2a9;
-  box-shadow: 0 0 10px #84c2a9;
+  -moz-box-shadow: 0 0 15px #42966f;
+  -webkit-box-shadow: 0 0 15px #42966f;
+  box-shadow: 0 0 15px #42966f;
 }
 
 div.gallery img {
+  border: none;
   width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 20px;
+  -moz-box-shadow: 0 0 10px #84c2a9;
+  -webkit-box-shadow: 0 0 10px #84c2a9;
 }
 
 div.desc {
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
 }
 
 .clearfix {
