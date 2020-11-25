@@ -18,6 +18,52 @@ function myFunction() {
     x.className = "topnavi";
   }
 }
+    
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnavi") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnavi";
+  }
+}
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
 </script>
     
 <div class="topnavi" id="myTopnav">
@@ -29,22 +75,69 @@ function myFunction() {
 
 
 <div class="main">
-<h2> Ink and Watercolor </h2>
 
-<p> TBA </p>
+<h2> Illustrations </h2>
 
-<h2> Just Ink </h2> 
+<div class="row">
+  <div class="column">
+    <img src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://n-m-luna.github.io/illustrations/Logo (Full Size).jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
 
-<p> TBA </p>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-<h2> Acrylic on Canvas </h2>
+    <div class="mySlides">
       
-      <p> TBA </p>
-      
-      <h2> Digital Art and Logo Design </h2>
-          
-      <p> TBA </p>
-      </div>
+      <img src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <img src="https://n-m-luna.github.io/illustrations/Logo (Full Size).jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:100%" onclick="currentSlide(1)" alt="Spacesuit">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:100%" onclick="currentSlide(2)" alt="Handkerchief">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:100%" onclick="currentSlide(3)" alt="Logo: El Tintero Titilante">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/Logo (Full Size).jpg" style="width:100%" onclick="currentSlide(4)" alt="Logo: Knitten Kitten by Luna">
+    </div>
+  </div>
+</div>
+    
+    </div>
           
 <footer> This portfolio was created by <a href="https://github.com/N-M-Luna" style="color: #42966f;" target="_blank"><u>N-M-Luna</u></a> using GitHub. Last updated: November 2020 </footer>
 
