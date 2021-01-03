@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Royal_Safari_Colors.css">
+    <link rel="stylesheet" href="https://n-m-luna.github.io/Royal_Safari_Colors.css"> 
     <title> Luna's Illustrations </title>
         
   </head>
@@ -43,7 +43,6 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -54,7 +53,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
     
@@ -70,6 +68,8 @@ function showSlides(n) {
 
 <h2> Illustrations </h2>
 
+
+<!-- Collage of thumbnails -->
 <div class="row">
   <div class="column">
     <img src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
@@ -80,51 +80,60 @@ function showSlides(n) {
   <div class="column">
     <img src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
+</div>
+<div class="row">
   <div class="column">
-    <img src="https://n-m-luna.github.io/illustrations/Logo (Full Size).jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="https://n-m-luna.github.io/illustrations/live.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://n-m-luna.github.io/illustrations/dance.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
   </div>
 </div>
 
+
+<!-- Gallery's Slides, with full-sized images -->
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
-
     <div class="mySlides">
-      
       <img src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:100%">
     </div>
-
     <div class="mySlides">
       <img src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:100%">
     </div>
-
     <div class="mySlides">
       <img src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:100%">
     </div>
-    
     <div class="mySlides">
-      <img src="https://n-m-luna.github.io/illustrations/Logo (Full Size).jpg" style="width:100%">
+      <img src="https://n-m-luna.github.io/illustrations/live.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img src="https://n-m-luna.github.io/illustrations/dance.jpg" style="width:100%">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
 
-
-    <div class="column">
-      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:100%" onclick="currentSlide(1)" alt="Spacesuit">
+<!-- Gallery's bottom tumbnails -->
+  	<div class="row">
+		<div class="column">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:90%" onclick="currentSlide(1)" alt="Spacesuit">
+    	</div>
+    	<div class="column">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:90%" onclick="currentSlide(2)" alt="Handkerchief">
+    	</div>
+    	<div class="column">
+      	<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:90%" onclick="currentSlide(3)" alt="Logo: El Tintero Titilante">
+    	</div>
     </div>
-    <div class="column">
-      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:100%" onclick="currentSlide(2)" alt="Handkerchief">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:100%" onclick="currentSlide(3)" alt="Logo: El Tintero Titilante">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="https://n-m-luna.github.io/illustrations/Logo (Full Size).jpg" style="width:100%" onclick="currentSlide(4)" alt="Logo: Knitten Kitten by Luna">
+ 	<div class="row">
+        <div class="column">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/live.jpg" style="width:90%" onclick="currentSlide(4)" alt="Live like there's no tomorrow">
+    	</div>
+    	<div class="column">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/dance.jpg" style="width:90%" onclick="currentSlide(5)" alt="Dance like no one is watching">
+    	</div>
     </div>
   </div>
 </div>
@@ -135,4 +144,3 @@ function showSlides(n) {
 
 </body>
 </html>
-
