@@ -43,6 +43,7 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -53,6 +54,7 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
     
@@ -66,8 +68,10 @@ function showSlides(n) {
 
 <div class="main">
 
-<h2> Illustrations </h2>
+<h2 style="text-align: center;"> Illustrations </h2>
+<hr style="margin-left: 20px; text-align:center; height:2px; color: #84c2a9; background-color: #84c2a9; margin-right: 20px;">
 
+<blockquote style="text-align: center;"> Click any image below to enlarge. </blockquote>
 
 <!-- Collage of thumbnails -->
 <div class="row">
@@ -114,25 +118,28 @@ function showSlides(n) {
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+    <div class="caption-container">
+    	<p id="caption"></p>
+    </div>
 
 <!-- Gallery's bottom tumbnails -->
   	<div class="row">
 		<div class="column">
-      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:90%" onclick="currentSlide(1)" alt="Spacesuit">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/spacesuit.jpg" style="width:90%" onclick="currentSlide(1)" alt="Space Babe (Ink and watercolor)">
     	</div>
     	<div class="column">
-      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:90%" onclick="currentSlide(2)" alt="Handkerchief">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/handkerchief.jpg" style="width:90%" onclick="currentSlide(2)" alt="Handkerchief Babe (Ink and watercolor)">
     	</div>
     	<div class="column">
-      	<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:90%" onclick="currentSlide(3)" alt="Logo: El Tintero Titilante">
+      	<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/El Tintero Titilante Logo.jpg" style="width:90%" onclick="currentSlide(3)" alt="Podcast Logo (Ink)">
     	</div>
     </div>
  	<div class="row">
         <div class="column">
-      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/live.jpg" style="width:90%" onclick="currentSlide(4)" alt="Live like there's no tomorrow">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/live.jpg" style="width:90%" onclick="currentSlide(4)" alt="Live (Ink)">
     	</div>
     	<div class="column">
-      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/dance.jpg" style="width:90%" onclick="currentSlide(5)" alt="Dance like no one is watching">
+      		<img class="demo cursor" src="https://n-m-luna.github.io/illustrations/dance.jpg" style="width:90%" onclick="currentSlide(5)" alt="Dance (Ink)">
     	</div>
     </div>
   </div>
@@ -140,7 +147,7 @@ function showSlides(n) {
     
     </div>
           
-<footer> This portfolio was created by <a href="https://github.com/N-M-Luna" style="color: #42966f;" target="_blank"><u>N-M-Luna</u></a> using GitHub. Last updated: November 2020 </footer>
+<footer> This portfolio was created by <a href="https://github.com/N-M-Luna" style="color: #42966f;" target="_blank"><u>N-M-Luna</u></a> using GitHub. Last updated: December 2020 </footer>
 
 </body>
 </html>
