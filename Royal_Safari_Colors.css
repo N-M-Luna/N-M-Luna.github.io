@@ -307,6 +307,11 @@ div.desc {
   width: 90%;
   max-width: 1200px;
 }
+	
+.caption-container p{
+  text-align: center;
+  color: #ccaa62;
+}
 
 /* The Close Button */
 .close {
