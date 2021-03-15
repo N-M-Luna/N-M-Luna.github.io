@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title> Klingon Syntax </title>
+  
+  <style>
+
+/* Colors:
+	Red: 910905
+    Pinkish White: fce1db
+    Pinkish Shadow: bd897f
+    Light Brown: 63260a
+    Dark Brown: 2e0101
+    Plum: 40051b
+*/
+
+/*Background settings */
+body {
+  background-color: #910905;
+}
+
+.main {
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #fce1db;
+  -moz-box-shadow: 0 0 10px #2e0101;
+  -webkit-box-shadow: 0 0 10px #2e0101;
+  box-shadow: 0 0 10px #2e0101;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+/*Letters*/
+li {
+  color: #2e0101;
+  margin-left: 60px;
+  margin-right: 20px;
+} 
+
+th, td{
+  color: #2e0101;
+  text-align: left;
+  padding: 8px;
+}
+	
+a {
+  color: #2e0101;
+  text-decoration: underline;
+}
+
+a:hover {
+	color: #63260a;
+}
+
+p {
+  color: #2e0101;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+blockquote {
+  color: #2e0101;
+  margin-left: 80px;
+  font-style: italic;
+} 	
+
+.by-line {
+  color: #2e0101;
+  margin-left: 20px;
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: #910905;
+  margin-left: 10px;
+  text-shadow: 2px 3px #bd897f;
+} 
+
+
+h2 {
+  color: #910905;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  text-shadow: 1px 2px #bd897f;
+}
+
+h3 {
+  color: #910905;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  text-shadow: 1px 2px #bd897f;
+}
+	
+h4 {
+  color: #910905;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  text-shadow: 1px 2px #bd897f;
+}
+
+h5 {
+  color: #910905;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px #bd897f;
+}
+
+
+footer {
+  color: #2e0101;
+  font-size: 18px;
+}
+
+
+/* Collapsible Examples */
+
+.collapsible {
+  background-color: #63260a;
+  color: #fce1db;
+  cursor: pointer;
+  padding: 18px;
+  display: block;
+  width: 90%;
+  margin: auto;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+  background-color: #2e0101;
+}
+
+.example {
+  display: none;
+  overflow: hidden;
+  background-color: #bd897f;
+  border-bottom-style: dashed;
+  border-left-style: inset;
+  border-color: #2e0101;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+/* Image settings */
+
+img {
+  -moz-box-shadow: 0 0 10px #2e0101;
+  -webkit-box-shadow: 0 0 10px #2e0101;
+  box-shadow: 0 0 10px #2e0101;
+  border: none;
+  /* border: 2px solid #40051b; */
+  display: block;
+  margin: auto;
+}
+
+
+/* Table settings */
+table {
+  border-collapse: collapse;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Highlighted environment */
+.highlighted-environ{
+  background-color: #40051b;
+  text-align: center;
+  color: #fce1db;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  -moz-box-shadow: 0 0 5px #2e0101;
+  -webkit-box-shadow: 0 0 5px #2e0101;
+  box-shadow: 0 0 5px #2e0101;
+}
+
+
+
+  </style>
+  
+  </head>
+  <body>
+
+<div class="main">
+
+
+<!--<h2 class="essay-title"> Klingon Syntax </h2>-->
+<h1> Klingon Syntax </h1>
+<p class="by-line"> by Nathalie M. Luna | Spring 2021 </p>
+
+<p> Introduction paragraph will include <a href=#>links</a> to main parts. </p>
+
+<h2> Heading 2 </h2>
+<h3> Heading 3 </h3>
+<h4> Heading 4 </h4>
+<h5> Heading 5 </h5>
+
+<p>The contents in this paper can be <b>bold</b>. It can be <i>italic</i>. Or it can even be <b><i>both</i></b> at the same time! </p>
+
+<ul> <li>This</li> <li>is</li> <li>a</li> <li>list.</li> </ul>
+
+<p class="highlighted-environ"> This is one of the Golden Rules of Klingon! </p>
+
+<p> And it will be illustrated via a carefully constructed example. Click the button below to view it. </p>
+
+<button type="button" class="collapsible"> Example 1 </button>
+
+<div class="example">
+
+  <p>This is an interlinear gloss. And the corresponding tree structure. </p>
+  
+  <img src="https://n-m-luna.github.io/pen-icon.jpeg" alt="Tree Structure for Example 1" width="300">
+  
+</div><!-- Closing example Div -->
+
+<p> Somewhere down the line... </p>
+
+<blockquote> There is a blockquote for important and/or broad strokes ideas. </blockquote>
+
+
+
+</div> <!-- Closing Main Div -->
+
+<footer> This project was created by <a href="https://github.com/N-M-Luna" target="_blank">N-M-Luna</a> using GitHub. </footer>
+
+    
+ <!-- Script to expand/colapse examples -->
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var example = this.nextElementSibling;
+    if (example.style.display === "block") {
+      example.style.display = "none";
+    } else {
+      example.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
